@@ -20,10 +20,16 @@ class IImageMap(model.Schema):
     """
     """
 
-    project = schema.TextLine(
-        title=_(u'Project'),
-        description=_(u'Give in a project name'),
+    imagemap = schema.Text(
+        title=_(
+            u'Image Map Markup',
+        ),
+        description=_(
+            u'Insert your image map markup here.',
+        ),
+        default=u'',
         required=False,
+        readonly=False,
     )
 
 
@@ -34,11 +40,11 @@ class ImageMap(object):
         self.context = context
 
     @property
-    def project(self):
-        if safe_hasattr(self.context, 'project'):
-            return self.context.project
+    def imagemap(self):
+        if safe_hasattr(self.context, 'imagemap'):
+            return self.context.imagemap
         return None
 
-    @project.setter
-    def project(self, value):
-        self.context.project = value
+    @imagemap.setter
+    def imagemap(self, value):
+        self.context.imagemap = value
