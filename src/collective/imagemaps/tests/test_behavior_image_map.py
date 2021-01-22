@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from collective.imagemaps.behaviors.image_map import IImageMapMarker
-from collective.imagemaps.testing import COLLECTIVE_IMAGEMAPS_INTEGRATION_TESTING  # noqa
-from plone.app.testing import setRoles
-from plone.app.testing import TEST_USER_ID
+from collective.imagemaps.testing import (
+    COLLECTIVE_IMAGEMAPS_INTEGRATION_TESTING  # noqa,
+)
+from plone.app.testing import setRoles, TEST_USER_ID
 from plone.behavior.interfaces import IBehavior
 from zope.component import getUtility
 
