@@ -5,7 +5,8 @@ Changelog
 1.0b2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Prevent trace when imagemap behavior field does not exist on current page.
+  [MrTango]
 
 
 1.0b1 (2021-01-22)
