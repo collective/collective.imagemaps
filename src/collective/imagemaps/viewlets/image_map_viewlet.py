@@ -4,10 +4,8 @@ from plone.app.layout.viewlets import ViewletBase
 
 
 class ImageMapViewlet(ViewletBase):
-
     def update(self):
-        self.imagemap = self.context.imagemap
+        self.imagemap = getattr(self.context, "imagemap", "")
 
-
-    def render(self):
+    def index(self):
         return self.imagemap

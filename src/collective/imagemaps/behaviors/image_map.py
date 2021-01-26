@@ -19,13 +19,9 @@ class IImageMap(model.Schema):
     """
 
     imagemap = schema.Text(
-        title=_(
-            u'Image Map Markup',
-        ),
-        description=_(
-            u'Insert your image map markup here.',
-        ),
-        default=u'',
+        title=_(u"Image Map Markup",),
+        description=_(u"Insert your image map markup here.",),
+        default=u"",
         required=False,
         readonly=False,
     )
@@ -39,7 +35,7 @@ class ImageMap(object):
 
     @property
     def imagemap(self):
-        if safe_hasattr(self.context, 'imagemap'):
+        if safe_hasattr(self.context, "imagemap"):
             return self.context.imagemap
         return None
 

@@ -31,3 +31,4 @@ report.html
 reports/
 # excludes
 /venv/pyvenv.cfg
+/.coverage.py37-Plone52

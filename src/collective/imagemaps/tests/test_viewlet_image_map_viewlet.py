@@ -28,7 +28,7 @@ class ViewletIntegrationTest(unittest.TestCase):
 
     def test_image_map_viewlet_is_registered(self):
         view = BrowserView(self.portal['other-document'], self.request)
-        manager_name = 'plone.abovecontenttitle'
+        manager_name = 'plone.belowcontent'
         alsoProvides(self.request, ICollectiveImagemapsLayer)
         manager = queryMultiAdapter(
             (self.portal['other-document'], self.request, view),
