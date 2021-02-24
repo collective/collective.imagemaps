@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.imagemaps',
-    version='1.0b3',
+    version='1.0b4.dev0',
     description="Provides image map behavior for Dexterity types.",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
