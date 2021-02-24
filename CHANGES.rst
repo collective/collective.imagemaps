@@ -5,7 +5,8 @@ Changelog
 1.0b3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix viewlet issue when imagemap field is None
+  [MrTango]
 
 
 1.0b2 (2021-01-26)
