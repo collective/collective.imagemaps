@@ -8,4 +8,4 @@ class ImageMapViewlet(ViewletBase):
         self.imagemap = getattr(self.context, "imagemap", "")
 
     def index(self):
-        return self.imagemap
+        return self.imagemap or u""

@@ -36,7 +36,7 @@ class ImageMap(object):
     @property
     def imagemap(self):
         if safe_hasattr(self.context, "imagemap"):
-            return self.context.imagemap
+            return self.context.imagemap or ""
         return None
 
     @imagemap.setter
