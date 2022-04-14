@@ -2,10 +2,10 @@ Changelog
 =========
 
 
-1.0b4 (unreleased)
-------------------
+1.0 (2022-04-14)
+----------------
 
-- Nothing changed yet.
+- initial final release
 
 
 1.0b3 (2021-02-24)
