@@ -18,7 +18,7 @@ class IImageMap(model.Schema):
     """
     """
 
-    imagemap = schema.Text(
+    imagemap = schema.SourceText(
         title=_(u"Image Map Markup",),
         description=_(u"Insert your image map markup here.",),
         default=u"",

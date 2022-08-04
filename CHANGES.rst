@@ -5,7 +5,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- move viewlet to IPortalFooter to avoid portaltransforms manipulating script tags
+  [MrTango]
 
 
 1.0 (2022-04-14)
