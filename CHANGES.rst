@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1 (unreleased)
+1.1 (2022-08-04)
 ----------------
 
 - move viewlet to IPortalFooter to avoid portaltransforms manipulating script tags
