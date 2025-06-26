@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-2.0a1 (unreleased)
-----------------
+2.0a1 (2025-06-26)
+------------------
 
 - support Python 3.10/3.11 and Plone 6.0/6.1
   [MrTango]
