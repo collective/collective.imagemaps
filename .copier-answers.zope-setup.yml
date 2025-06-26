@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: eb658ec
+_src_path: gh:plone/copier-zope-setup
+db_storage: direct
+dst_path: .
+initial_zope_username: admin
+plone_distribution: plone.classicui
+plone_version: 6.0.15
+wsgi_listen: localhost:8080
+wsgi_workers: 2

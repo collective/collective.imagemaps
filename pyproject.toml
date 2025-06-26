@@ -1,0 +1,14 @@
+[project]
+name = "zope-setup"
+version = "1.0.0"
+dependencies = [
+    "invoke>=2.2.0",
+    "tomlkit>=0.13.3",
+    "pyruvate",
+    "plone.classicui",
+]
+requires-python = ">=3.11.1"
+
+
+[tool.uv]
+constraint-dependencies = ["Products.CMFPlone==6.0.15"]
