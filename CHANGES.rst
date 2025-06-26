@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.2 (unreleased)
+2.0a1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- support Python 3.10/3.11 and Plone 6.0/6.1
+  [MrTango]
 
 
 1.1 (2022-08-04)
